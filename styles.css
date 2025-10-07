@@ -1,0 +1,78 @@
+
+/* GENERAL STYLES */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1b1f3b;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* ABOUT SECTION */
+#about {
+  background: linear-gradient(135deg, #313552 60%, #1b1f3b);
+  border-radius: 0.8rem;
+  margin-top: 60px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+#about img {
+  border-radius: 1rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+#about img:hover {
+  transform: scale(1.05);
+}
+
+.m-heading {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.text-warning {
+  color: #f5ba09 !important;
+}
+
+.btn-warning-custom {
+  border: 2px solid #f5ba09;
+  color: #f5ba09;
+  transition: 0.3s ease;
+}
+
+.btn-warning-custom:hover {
+  background-color: #f5ba09;
+  color: #1b1f3b;
+}
+
+/* GALLERY SECTION */
+.gallery {
+  margin-top: 80px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+  transition: all 0.4s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(245, 186, 9, 0.5);
+}
+
+.card-title {
+  color: #f5ba09;
+  font-weight: 600;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  #about {
+    text-align: center;
+  }
+
+  #about img {
+    margin-bottom: 20px;
+  }
+}
